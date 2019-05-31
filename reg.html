@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="Content-Type"content="text/html; charset=UTF-8"/>
+		<title>Secure</title>
+		<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css">
+		<link rel="stylesheet" href="materialize/css/YXzLBN.css">
+		<meta name="viewport" content="width=device.width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+</head>
+
+<body>
+<nav>
+			<div class="nav-wrapper blue darken-3">
+			  <a style="width: 100px" href="#" class="brand-logo"><img style="width: 100%;" class="rensponsive-img" src="recursos/logocompleto.png"></a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Registro</a></li>
+					<li><a class="modal-trigger" href="#modal1">Iniciar Sesión</a></li>
+			  </ul>
+			  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	<ul id="slide-out" class="sidenav">
+			<li><div class="user-view">
+				<div class="background">
+					<img src="img/homer.jpg">
+				</div>
+				<a href="#user"><img class="circle" src="img/logosecure.png"></a>
+				<a href="#name"><span class="white-text name">Nombre de usuario</span></a>
+				<a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+			</div></li>
+			<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+			<li><a href="#!">Second Link</a></li>
+			<li><div class="divider"></div></li>
+			<li><a class="subheader">Subheader</a></li>
+			<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+		</ul>
+
+<div class="group">
+  <form action="registro.php" method="POST">
+  <h2><em>Formulario de Registro</em></h2>
+  
+     
+      <label for="nom_usuario">Nombre de usuario<span><em>(obligatorio)</em></span></label>
+      <input type="text" name="nom_usuario" class="form-input" required/>   
+      
+      <label for="num_tel">Numero de telefono <span><em>(obligatorio)</em></span></label>
+      <input type="text" name="num_tel" class="form-input" required/>             
+      
+      <label for="email">Email <span><em>(obligatorio)</em></span></label>
+      <input type="text" name="correo" class="form-input" />
+	  
+	  <label for="pass">ContraseÃ±a<span><em>(obligatorio)</em></span></label>
+      <input type="text" name="passwd" class="form-input" />
+	  
+	  	  
+     <center> <input class="form-btn" name="submit" type="submit" value="Suscribirse" /></center>
+    </p>
+  </form>
+</div>
+<footer style="bottom: 0; position: fixed; width: 100%" class="page-footer blue darken-3" id="secciones" >
+		  <ul class="tabs tabs-fixed-width tab-demo blue darken-3">
+			<li class="tab"><a class="active" href="#test1"><span class="white-text">Mapa</span></a></li>
+			<li class="tab"><a href="#test2"><span class="white-text">Información</span></a></li>
+			<li class="tab"><a href="#test3"><span class="white-text">Ayuda</span></a></li>
+		  </ul>
+
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+</body>
+</html>
